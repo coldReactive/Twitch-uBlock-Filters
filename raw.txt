@@ -1,0 +1,46 @@
+! Title: Twitch Annoyance Filters
+! Expires: 6 days
+! Description: Block annoyances on Twitch.
+! Homepage: https://github.com/coldReactive/Twitch-uBlock-Filters
+! Portions of this list adapted from Reddit Posts.
+
+||twitch.tv/ads$domain=twitch.tv
+||anomaly-livestream-adserver.twitch.tv$domain=twitch.tv
+||player.twitch.tv$domain=twitch.tv
+||ad.doubleclick.net^$domain=twitch.tv
+||pubads.g.doubleclick.net^$domain=twitch.tv
+||securepubads.g.doubleclick.net^$domain=twitch.tv
+||imasdk.googleapis.com^$domain=twitch.tv
+||pagead2.googlesyndication.com^$domain=twitch.tv
+||googleads.g.doubleclick.net^$domain=twitch.tv
+||s0.2mdn.net^$domain=twitch.tv
+||s1.2mdn.net^$domain=twitch.tv
+||s2.2mdn.net^$domain=twitch.tv
+||s3.2mdn.net^$domain=twitch.tv
+||s4.2mdn.net^$domain=twitch.tv
+||s5.2mdn.net^$domain=twitch.tv
+||s6.2mdn.net^$domain=twitch.tv
+||s7.2mdn.net^$domain=twitch.tv
+||s8.2mdn.net^$domain=twitch.tv
+||s9.2mdn.net^$domain=twitch.tv
+||static.doubleclick.net^$domain=twitch.tv
+||ad.atdmt.com^$domain=twitch.tv
+||at.atwola.com^$domain=twitch.tv
+twitch.tv##.tw-block[data-a-target="banner-ad-container"]
+twitch.tv##.tw-absolute.tw-top-0.tw-full-width.tw-flex.tw-flex-row.tw-justify-content-center[data-test-selector="ad-banner"]
+twitch.tv##.tw-absolute.tw-top-0.tw-full-width.tw-flex.tw-flex-row.tw-justify-content-center[data-test-selector="display-ad"]
+twitch.tv##.tw-overflow-hidden[data-a-target="video-player"]
+twitch.tv##.player-ad-overlay.player-overlay
+twitch.tv##.video-player-ad-overlay.video-overlay
+twitch.tv##.extension-overlay[data-a-target="extension-overlay"]
+twitch.tv##.community-points-summary
+twitch.tv##.prime-promotion-unit-root
+twitch.tv##div[data-a-target="player-overlay-mature-accepted"]
+twitch.tv##.video-player__ad--overlay:not([style*="30s"])
+twitch.tv##.tw-absolute.tw-bottom-0.tw-left-0.tw-overlay.tw-transition-opacity.tw-transition__enter-active.tw-transition__exit-active:not([style*="30s"])
+twitch.tv##.tw-align-items-center.tw-flex.tw-flex-column.tw-justify-content-center.tw-overlay-container:not([style*="30s"])
+twitch.tv##.tw-absolute.tw-bottom-0.tw-left-0.tw-overlay.tw-overlay--base.tw-overflow-hidden.tw-right-0.tw-top-0
+twitch.tv##.tw-align-items-center.tw-flex.tw-full-width.tw-justify-content-center.tw-pd-t-1.tw-relative.tw-z-above
+twitch.tv##.tw-aspect--align-top
+twitch.tv##.tw-image--success.tw-pd-t-05
+twitch.tv##.tw-interactive.tw-link.tw-link--button
